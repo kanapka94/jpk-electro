@@ -3,6 +3,9 @@
     <main class="main">
       <section>
         JPK Client
+        <el-row>
+          <el-button type="primary">Przycisk Primary</el-button>
+        </el-row>
       </section>
     </main>
   </div>

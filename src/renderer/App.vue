@@ -11,7 +11,23 @@ export default {
 </script>
 
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
+  @font-face {
+    font-family: "Nunito";
+    src: url('assets/scss/fonts/Nunito-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url('assets/scss/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Nunito";
+    src: url('assets/scss/fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
 
 	* {
     box-sizing: border-box;
@@ -19,7 +35,7 @@ export default {
     padding: 0;
 	}
 
-	body {
+  body {
 	  font-family: 'Nunito', sans-serif;
 	}
 </style>
